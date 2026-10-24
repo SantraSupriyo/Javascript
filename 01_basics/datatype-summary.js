@@ -41,5 +41,27 @@ console.log(typeof myFunction);
 
 
 
+// ************************** memory ************
 
+
+// stack (Primitive), heap (Non primitive)
+
+
+let myYoutube = "SupriyoSantra"
+
+let anotherYT = myYoutube
+anotherYT = "chaiaurcode"
+console.log(anotherYT);
+console.log(myYoutube);
+
+let user1 = {
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let user2 = user1 
+
+user2.email = "supriyo@google.com"
+
+console.log(user2.email);
 
